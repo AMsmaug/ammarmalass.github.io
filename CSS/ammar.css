@@ -143,6 +143,12 @@ html {
     width: 204px;
     height: 186px;
 }
+@media (max-width: 1199px) {
+    .dots::before,
+    .dots::after {
+        display: none;
+    }
+}
 /* End components */
 /* Start animations */
 @keyframes arrow-right-and-left {
